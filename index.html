@@ -8,26 +8,61 @@
 	</nav>
 </head>
 <body>
-	<header>
-		<h1>Some Things About Robots</h1>
-		<h2>Our future benefactors!</h2>
-	</header>
-	<div>
-		<img src="images/robot1.jpg" alt="Robots in a line"><br>
-		Credit: Unknown - <a href="http://www.kaushik.net/avinash/wp-content/uploads/2008/05/robots-out-to-get-me.jpg">source</a> - licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons</a>
-	</div>
-	<div>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	<article>
+		<header>
+			<h1>Some Things About Robots</h1>
+			<h2>Our future benefactors!</h2>
+		</header>
+		<div>
+			<img src="images/robot1.jpg" alt="Robots in a line"><br>
+			Credit: Unknown - <a href="http://www.kaushik.net/avinash/wp-content/uploads/2008/05/robots-out-to-get-me.jpg">source</a> - licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons</a>
+		</div>
+		<div>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-	</div>
-	<div>
-		
-	</div>
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>
+				Features:
+				<ul>
+					<li>Made of metals</li>
+					<li>Run on electricity</li>
+					<li>May or may not have A.I.</li>
+				</ul>
+			</p>
+			<br>
+		</div>
+		<div>
+			Please enter some basic information for our future overlords:
+			<form action="submit.html" method="post">
+				<fieldset>
+					<div>
+						<label>First Name: </label>
+						<input type="text" name="fname">
+					</div>
+					<div>
+						<label>Last Name: </label>
+						<input type="text" name="lname">
+					</div>
+					<div>
+						<label>Age: </label>
+						<input type="number" name="age">
+					</div>
+					<div>
+						<label>Date of visit: </label>
+						<input type="date" name="date">
+					</div>
+					<div>
+						Comment:<br>
+						<textarea rows="4" name="comment"></textarea>
+					</div>
+				</fieldset>
+				<input type="submit" name="submit">
+			</form>
+		</div>
+	</article>
 </body>
 </html>
