@@ -16,6 +16,37 @@ header > h2 {
   font-size: 1.5em;
 }
 
+body {
+  position: relative;
+  top: 2em;
+}
+
+.clink:visited {
+  color: #ff0000;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav > a {
+  background: #aaffaa;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+}
+
+nav > a:hover {
+  background: #77aa77;
+}
+
+nav > a:not(:first-child) {
+  border-left: 2px ridge black;
+}
+
 #image {
   width: 50%;
   margin: auto;
@@ -44,9 +75,22 @@ header > h2 {
   top: 2em;
 }
 
+form {
+  position: relative;
+  top: 4em;
+  width: 25%;
+  float: right;
+}
+
+form > input {
+  width: 100%;
+}
+
 footer {
   font-family: Helvetica;
   font-size: .8em;
   width: 50%;
-  margin: auto;
+  margin-left: 10%;
+  position: relative;
+  top: 4em;
 }
