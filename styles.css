@@ -94,3 +94,9 @@ footer {
   position: relative;
   top: 4em;
 }
+
+@media screen and (max-width:500px) {
+  body {
+    width: 500px;
+  }
+}
